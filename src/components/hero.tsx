@@ -861,7 +861,7 @@ export default function HolographicScanner() {
     const [showControls, setShowControls] = useState(false);
     const [customTitle, setCustomTitle] = useState('');
     const [customSubtitle, setCustomSubtitle] = useState('');
-    const [autoRotate, setAutoRotate] = useState(true);
+    const [autoRotate, setAutoRotate] = useState(false);
     const [objectConfig, setObjectConfig] = useState({
         scale: [3, 3, 1],
         geometry: 'plane',
